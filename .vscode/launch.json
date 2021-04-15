@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        
+    {
+        "command": "rails server",
+        "name": "Run rails server",
+        "request": "launch",
+        "type": "node-terminal"
+    }
+    ]
+}
