@@ -45,7 +45,7 @@ class TweeetsController < ApplicationController
     end
   end
 
-  # PATCH/PUT /tweeets/1 or /tweeets/1.json
+  # PATCH/PUT /tweeets/1 or /tweeets/1.json                     
   def update
     respond_to do |format|
       if @tweeet.update(tweeet_params)
